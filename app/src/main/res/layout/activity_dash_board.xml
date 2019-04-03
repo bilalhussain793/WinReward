@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/back"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashBoard">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:background="@drawable/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_inf"
+                android:textSize="14dp"
+                android:background="#000"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+
+                    android:id="@+id/spin_linear_id"
+                    android:layout_width="160dp"
+                    android:layout_height="179dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/blue_shape"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.025">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/spin_image_id"
+                            android:layout_width="70dp"
+                            android:layout_height="100dp"
+                            android:alpha=".8"
+                            android:tint="#fff"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/magicwheel" />
+
+                        <TextView
+                            android:id="@+id/spin_text_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/spin_image_id"
+                            android:layout_marginTop="10dp"
+                            android:text="Unlimited spin"
+
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            android:textColor="#fff"
+
+
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_watch_video_id"
+                    android:layout_width="160dp"
+
+
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.961"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.025">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp"
+
+                        >
+                        <ImageView
+                            android:id="@+id/watch_video_image_id"
+                            android:layout_width="70dp"
+                            android:layout_height="100dp"
+                            android:alpha=".8"
+                            android:tint="#fff"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/video" />
+
+
+                        <TextView
+                            android:id="@+id/video_text_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/watch_video_image_id"
+                            android:layout_marginTop="10dp"
+                            android:text="Watch videos"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/video_text_id"
+                            android:text="Get 1000 pints"
+                            android:textAlignment="center"
+
+
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            android:textColor="#fff" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/wallet_id"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/orange"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.472">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/wallet_image_id"
+                        android:layout_width="70dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="100dp"
+                        android:alpha=".8"
+                        android:src="@drawable/wallet"
+                        android:tint="#fff"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/wallet_text_score_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" 0 Points"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/linear_share_id"
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/purple"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.043"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.802">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/share_image_id"
+                            android:layout_width="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="100dp"
+                            android:alpha=".8"
+                            android:tint="#fff"
+                            android:src="@drawable/share"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/share_text_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/share_image_id"
+                            android:layout_marginTop="10dp"
+                            android:text="Share"
+
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            android:textColor="#fff"
+
+
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_rate_id"
+                    android:layout_width="97dp"
+                    android:layout_height="141dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/red"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.966"
+                    app:layout_constraintStart_toStartOf="@+id/linear_share_id"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/rate_image_id"
+                            android:layout_width="50dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:alpha=".8"
+                            android:src="@drawable/rateus"
+                            android:tint="#fff"
+                            />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rate_image_id"
+                            android:layout_marginTop="10dp"
+                            android:text="Rate Us"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            android:textColor="#fff"
+
+
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_logout_id"
+                    android:layout_width="100dp"
+                    android:layout_height="141dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/light_blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.46"
+                    app:layout_constraintStart_toStartOf="@+id/linear_share_id"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/logout_image_id"
+                            android:layout_width="70dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:alpha=".8"
+                            android:tint="#fff"
+                            android:src="@drawable/logout"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/logout_text_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/logout_image_id"
+                            android:layout_marginTop="10dp"
+                            android:text="Logout"
+
+                            android:textAlignment="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                            android:textColor="#fff"
+
+
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minimum 50000 poits required to redeem"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="20dp"/>
+            <LinearLayout
+                android:id="@+id/linear_redeem_id"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/green"
+                android:gravity="bottom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/redeem_image_id"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:alpha=".8"
+                        android:src="@drawable/redeem"
+                        android:tint="#fff"
+                        />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/redeem_text_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Redeem"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

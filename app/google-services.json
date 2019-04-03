@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "136517837022",
+    "firebase_url": "https://winreward-e2500.firebaseio.com",
+    "project_id": "winreward-e2500",
+    "storage_bucket": "winreward-e2500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136517837022:android:53be3b4c72f71882",
+        "android_client_info": {
+          "package_name": "com.example.bilalhussain.winreward"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136517837022-8viatot60mjoejecs1iaa7nn96f6to8r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalhussain.winreward",
+            "certificate_hash": "4a81221546ee5149900aff3e6cd151a528ec1d32"
+          }
+        },
+        {
+          "client_id": "136517837022-4rftr5a1ed2qkb00vjv6mb6jkf5m6kh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmRb0fM-iRDytvJHXyQPVPFVMAIHhFYK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136517837022-4rftr5a1ed2qkb00vjv6mb6jkf5m6kh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
